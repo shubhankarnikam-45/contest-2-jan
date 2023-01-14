@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.heading{
+    color:#ddd;
+    position:relative;
+    top:25px;
+    font-weight:1000;
+    text-align: center;
+}
+    
+
+.name{
+    color:#fff;
+}
+
+.tname .pro-name .age{
+    color:black;
+}
+
+.container{
+    background-color: black;
+    max-width:1200px;
+    min-width:1200px;
+    margin:52px auto;
+    height:1000px;
+
+}
+.entered-value{
+    display:flex;
+    position:relative;
+    top:52px;
+    justify-content: space-evenly;
+}
+
+.entered-value input:hover{
+    border-radius:11px solid green;
+}
+
+
+.add-user button{
+    color:#ddd;
+    position:relative;
+    left: 175px;
+    top: 107px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.message{
+    color:#ddd;
+    position:relative;
+    top: 128px;
+    right: -176px;
+}
+
+.add-emp-mess{
+    color:white;
+    position: relative;
+    top: 178px;
+    right: -181px;
+}
+
+.table1{
+    position: relative;
+    top: 253px;
+    right: -173px;
+}
+
+.table1 tr{
+    color:white;
+}

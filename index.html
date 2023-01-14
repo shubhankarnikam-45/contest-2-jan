@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Through JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h1>New Employee</h1>
+        </div>
+
+
+
+        <div class="entered-value">
+            <div>
+                <label for="" class="name">Enter name</label>
+                <br><br>
+                <input id="tname" type="text">
+            </div>
+
+            <div class="">
+                <label for="" class="name">Enter Profession</label>
+                <br><br>
+                <input id="pro-name" type="text">
+            </div>
+
+            <div>
+                <label for="" class="name">Enter Age</label>
+                <br><br>
+                <input id="age" type="number">
+            </div>
+
+
+        </div>
+
+        <div class="add-user">
+            <button id="btn-add"  onclick="addHtmlTableRow()";>
+                Add User
+            </button>
+        </div>
+
+        <div class="message">
+            <h3 id="alert-mess"></h3>
+        </div>
+
+        <div class="add-emp-mess">
+            <h2>Added Employees</h2>
+        </div>
+
+        <div class="table1">
+            <table id="table" border="1" color="white">
+                <tr>
+                    <th>Name</th>
+                    <th>Profession</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>A1</td>
+                    <td>B1</td>
+                    <td>10</td>
+                    <td><button>Delete User</button></td>
+                </tr>
+                
+                <tr>
+                    <td>A3</td>
+                    <td>B3</td>
+                    <td>30</td>
+                    <td><button>Delete User</button></td>
+                </tr>
+                <tr>
+                    <td>A2</td>
+                    <td>B2</td>
+                    <td>20</td>
+                    <td><button>Delete User</button></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
